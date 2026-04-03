@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Odunayo - Week 2 ELA</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+        .slide { display: none !important; }
+        .slide.active { display: flex !important; flex-direction: column; justify-content: center; align-items: center; width: 100%; }
+        /* High contrast colors for ADHD focus */
+        .text-highlight { color: #FBBF24; } /* Amber 400 */
+    </style>
+</head>
+<body class="bg-slate-900 text-white min-h-screen w-full flex flex-col m-0 overflow-x-hidden">
+
+    <!-- Progress Bar -->
+    <div class="h-2 w-full bg-slate-800">
+        <div id="progress-bar" class="h-full bg-blue-500 transition-all duration-300" style="width: 0%;"></div>
+    </div>
+
+    <!-- Main Slide Area -->
+    <div id="slide-container" class="flex-1 w-full p-4 md:p-8 relative flex flex-col items-center justify-center">
+        
+        <!-- Slide 1 -->
+        <div class="slide active h-full text-center">
+            <h1 class="text-6xl md:text-8xl font-black mb-6 uppercase tracking-wider">Odunayo ELA</h1>
+            <h2 class="text-4xl text-slate-400 font-bold">Week 2: Sounds & Texting</h2>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="slide h-full text-center">
+            <h2 class="text-5xl font-bold mb-12 text-blue-400">Today's Goals</h2>
+            <ul class="text-4xl space-y-8 text-left max-w-3xl mx-auto list-disc pl-8">
+                <li>Read words with short <span class="text-highlight">U</span> and <span class="text-highlight">O</span></li>
+                <li>Build new words by adding letters</li>
+                <li>Read and reply to text messages</li>
+            </ul>
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="slide h-full text-center">
+            <h1 class="text-7xl font-black text-highlight uppercase">Part 1</h1>
+            <h2 class="text-5xl mt-6">The Short 'U' Sound</h2>
+        </div>
+
+        <!-- Slide 4 -->
+        <div class="slide h-full text-center">
+            <p class="text-4xl text-slate-400 mb-4">Start with the chunk:</p>
+            <h1 class="text-9xl font-black">-up</h1>
+        </div>
+
+        <!-- Slide 5 -->
+        <div class="slide h-full text-center">
+            <p class="text-4xl text-slate-400 mb-4">Add a 'c'</p>
+            <h1 class="text-9xl font-black"><span class="text-blue-500">c</span>up</h1>
+        </div>
+
+        <!-- Slide 6 -->
+        <div class="slide h-full text-center">
+            <p class="text-4xl text-slate-400 mb-4">Add a 'p'</p>
+            <h1 class="text-9xl font-black"><span class="text-blue-500">p</span>up</h1>
+        </div>
+
+        <!-- Slide 7 -->
+        <div class="slide h-full text-center">
+            <p class="text-4xl text-slate-400 mb-4">New chunk:</p>
+            <h1 class="text-9xl font-black">-ug</h1>
+        </div>
+
+        <!-- Slide 8 -->
+        <div class="slide h-full text-center">
+            <p class="text-4xl text-slate-400 mb-4">Add an 'r'</p>
+            <h1 class="text-9xl font-black"><span class="text-blue-500">r</span>ug</h1>
+        </div>
+
+        <!-- Slide 9 -->
+        <div class="slide h-full text-center">
+            <p class="text-4xl text-slate-400 mb-4">Add a 'b'</p>
+            <h1 class="text-9xl font-black"><span class="text-blue-500">b</span>ug</h1>
+        </div>
+
+        <!-- Slide 10 -->
+        <div class="slide h-full text-center">
+            <p class="text-4xl text-slate-400 mb-4">New chunk:</p>
+            <h1 class="text-9xl font-black">-un</h1>
+        </div>
+
+        <!-- Slide 11 -->
+        <div class="slide h-full text-center">
+            <p class="text-4xl text-slate-400 mb-4">Add an 'r'</p>
+            <h1 class="text-9xl font-black"><span class="text-blue-500">r</span>un</h1>
+        </div>
+
+        <!-- Slide 12 -->
+        <div class="slide h-full text-center">
+            <p class="text-4xl text-slate-400 mb-4">Add an 's'</p>
+            <h1 class="text-9xl font-black"><span class="text-blue-500">s</span>un</h1>
+        </div>
+
+        <!-- Slide 13 -->
+        <div class="slide h-full text-center">
+            <h1 class="text-7xl font-black text-highlight uppercase">Part 2</h1>
+            <h2 class="text-5xl mt-6">The Short 'O' Sound</h2>
+        </div>
+
+        <!-- Slide 14 -->
+        <div class="slide h-full text-center">
+            <p class="text-4xl text-slate-400 mb-4">Start with the chunk:</p>
+            <h1 class="text-9xl font-black">-ot</h1>
+        </div>
+
+        <!-- Slide 15 -->
+        <div class="slide h-full text-center">
+            <p class="text-4xl text-slate-400 mb-4">Add an 'h'</p>
+            <h1 class="text-9xl font-black"><span class="text-green-500">h</span>ot</h1>
+        </div>
+
+        <!-- Slide 16 -->
+        <div class="slide h-full text-center">
+            <p class="text-4xl text-slate-400 mb-4">Add a 'p'</p>
+            <h1 class="text-9xl font-black"><span class="text-green-500">p</span>ot</h1>
+        </div>
+
+        <!-- Slide 17 -->
+        <div class="slide h-full text-center">
+            <p class="text-4xl text-slate-400 mb-4">New chunk:</p>
+            <h1 class="text-9xl font-black">-op</h1>
+        </div>
+
+        <!-- Slide 18 -->
+        <div class="slide h-full text-center">
+            <p class="text-4xl text-slate-400 mb-4">Add an 'h'</p>
+            <h1 class="text-9xl font-black"><span class="text-green-500">h</span>op</h1>
+        </div>
+
+        <!-- Slide 19 -->
+        <div class="slide h-full text-center">
+            <p class="text-4xl text-slate-400 mb-4">Add a 't'</p>
+            <h1 class="text-9xl font-black"><span class="text-green-500">t</span>op</h1>
+        </div>
+
+        <!-- Slide 20 -->
+        <div class="slide h-full text-center">
+            <h1 class="text-7xl font-black text-highlight uppercase">Part 3</h1>
+            <h2 class="text-5xl mt-6">Rhyming Check</h2>
+            <p class="text-3xl text-slate-400 mt-4">Do the endings match?</p>
+        </div>
+
+        <!-- Slide 21 -->
+        <div class="slide h-full text-center">
+            <h1 class="text-8xl font-black mb-8">HOT & POT</h1>
+            <h2 class="text-6xl text-green-500 font-bold uppercase">YES! They Rhyme.</h2>
+        </div>
+
+        <!-- Slide 22 -->
+        <div class="slide h-full text-center">
+            <h1 class="text-8xl font-black mb-8">BUG & RUN</h1>
+            <h2 class="text-6xl text-red-500 font-bold uppercase">NO! They Don't.</h2>
+        </div>
+
+        <!-- Slide 23 -->
+        <div class="slide h-full text-center">
+            <h1 class="text-7xl font-black text-highlight uppercase">Part 4</h1>
+            <h2 class="text-5xl mt-6">Real World Reading</h2>
+            <p class="text-3xl text-slate-400 mt-4">Replying to Text Messages</p>
+        </div>
+
+        <!-- Slide 24 -->
+        <div class="slide h-full text-center">
+            <h2 class="text-5xl font-bold mb-8 text-blue-400">Your Only Allowed Words:</h2>
+            <div class="flex flex-wrap justify-center gap-6 text-6xl font-black">
+                <span class="bg-slate-800 px-6 py-4 rounded-xl border-2 border-slate-600">Yes</span>
+                <span class="bg-slate-800 px-6 py-4 rounded-xl border-2 border-slate-600">No</span>
+                <span class="bg-slate-800 px-6 py-4 rounded-xl border-2 border-slate-600">Ok</span>
+                <span class="bg-slate-800 px-6 py-4 rounded-xl border-2 border-slate-600">Up</span>
+                <span class="bg-slate-800 px-6 py-4 rounded-xl border-2 border-slate-600">On</span>
+            </div>
+        </div>
+
+        <!-- Slide 25 -->
+        <div class="slide h-full w-full max-w-4xl mx-auto flex flex-col justify-center">
+            <p class="text-3xl text-slate-400 mb-2">Message from Mom:</p>
+            <div class="bg-green-600 text-white p-8 rounded-2xl rounded-tl-none text-5xl font-bold mb-8 self-start w-3/4">
+                Did you lock the front door?
+            </div>
+            <p class="text-4xl text-highlight font-bold self-end">Reply: YES or NO</p>
+        </div>
+
+        <!-- Slide 26 -->
+        <div class="slide h-full w-full max-w-4xl mx-auto flex flex-col justify-center">
+            <p class="text-3xl text-slate-400 mb-2">Message from Dad:</p>
+            <div class="bg-blue-600 text-white p-8 rounded-2xl rounded-tl-none text-5xl font-bold mb-8 self-start w-3/4">
+                Turn the TV off and go to bed.
+            </div>
+            <p class="text-4xl text-highlight font-bold self-end">Reply: OK</p>
+        </div>
+
+        <!-- Slide 27 -->
+        <div class="slide h-full w-full max-w-4xl mx-auto flex flex-col justify-center">
+            <p class="text-3xl text-slate-400 mb-2">Message from Sister:</p>
+            <div class="bg-purple-600 text-white p-8 rounded-2xl rounded-tl-none text-5xl font-bold mb-8 self-start w-3/4">
+                Are you awake right now?
+            </div>
+            <p class="text-4xl text-highlight font-bold self-end">Reply: YES or UP</p>
+        </div>
+
+        <!-- Slide 28 -->
+        <div class="slide h-full w-full max-w-4xl mx-auto flex flex-col justify-center">
+            <p class="text-3xl text-slate-400 mb-2">Message from Boss:</p>
+            <div class="bg-slate-600 text-white p-8 rounded-2xl rounded-tl-none text-5xl font-bold mb-8 self-start w-3/4">
+                Is the computer turned on?
+            </div>
+            <p class="text-4xl text-highlight font-bold self-end">Reply: YES, NO, or ON</p>
+        </div>
+
+        <!-- Slide 29 -->
+        <div class="slide h-full text-center">
+            <h1 class="text-8xl font-black mb-6 text-green-400 uppercase">Great Job!</h1>
+            <p class="text-4xl">You read words with U and O.</p>
+            <p class="text-4xl mt-4">You read real text messages.</p>
+        </div>
+
+        <!-- Slide 30 -->
+        <div class="slide h-full text-center">
+            <h1 class="text-7xl font-black mb-8 text-highlight uppercase">Now, Do Your Work.</h1>
+            <p class="text-4xl text-slate-300">Open your Google Sheet.</p>
+            <p class="text-4xl text-slate-300 mt-4">You have 60 minutes. Do not skip lines.</p>
+        </div>
+
+    </div>
+
+    <!-- Controls Area -->
+    <div class="bg-slate-950 border-t border-slate-800 p-6 flex justify-between items-center">
+        <button id="prevBtn" class="px-8 py-4 bg-slate-800 hover:bg-slate-700 text-white font-bold rounded-lg text-2xl transition-colors disabled:opacity-50">
+            &#8592; Back
+        </button>
+        <span id="slideCounter" class="text-2xl font-mono text-slate-400">1 / 30</span>
+        <button id="nextBtn" class="px-8 py-4 bg-blue-600 hover:bg-blue-500 text-white font-bold rounded-lg text-2xl transition-colors disabled:opacity-50">
+            Next &#8594;
+        </button>
+    </div>
+
+    <script>
+        const slides = document.querySelectorAll('.slide');
+        const prevBtn = document.getElementById('prevBtn');
+        const nextBtn = document.getElementById('nextBtn');
+        const slideCounter = document.getElementById('slideCounter');
+        const progressBar = document.getElementById('progress-bar');
+        
+        let currentSlide = 0;
+        const totalSlides = slides.length;
+
+        function updateDeck() {
+            // Hide all, show current
+            slides.forEach((slide, index) => {
+                if(index === currentSlide) {
+                    slide.classList.add('active');
+                } else {
+                    slide.classList.remove('active');
+                }
+            });
+
+            // Update counter and progress bar
+            slideCounter.innerText = `${currentSlide + 1} / ${totalSlides}`;
+            const progressPercent = ((currentSlide + 1) / totalSlides) * 100;
+            progressBar.style.width = `${progressPercent}%`;
+
+            // Handle button states
+            prevBtn.disabled = currentSlide === 0;
+            nextBtn.disabled = currentSlide === totalSlides - 1;
+        }
+
+        prevBtn.addEventListener('click', () => {
+            if (currentSlide > 0) {
+                currentSlide--;
+                updateDeck();
+            }
+        });
+
+        nextBtn.addEventListener('click', () => {
+            if (currentSlide < totalSlides - 1) {
+                currentSlide++;
+                updateDeck();
+            }
+        });
+
+        // Keyboard navigation
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'ArrowRight' || e.key === ' ') {
+                if (currentSlide < totalSlides - 1) {
+                    currentSlide++;
+                    updateDeck();
+                }
+            } else if (e.key === 'ArrowLeft') {
+                if (currentSlide > 0) {
+                    currentSlide--;
+                    updateDeck();
+                }
+            }
+        });
+
+        // Initialize
+        updateDeck();
+    </script>
+</body>
+</html>
